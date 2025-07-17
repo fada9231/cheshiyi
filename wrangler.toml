@@ -3,6 +3,6 @@ main = "src/index.js"
 compatibility_date = "2024-05-01"
 
 [[d1_databases]]
-binding = "jingxi"
+binding = "cheshiyi"
 database_name = "cheshiyi"
 database_id = "f594d41e-e782-4006-897c-7ddad8762ba1"
