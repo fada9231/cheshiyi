@@ -1,20 +1,8 @@
-name = "cheshiyi"            # 项目名称（用于生成 Workers 地址）
-type = "javascript"               # 若你使用的是 JS 编写 Workers
-dcompatibility_date = "2024-05-01"  # 指定兼容日期
+name = "telegram-bot"
+main = "src/index.js"
+compatibility_date = "2024-05-01"
 
-main = "src/index.js"            # 主入口文件路径（视你的项目结构而定）
-
-# D1 数据库绑定配置
 [[d1_databases]]
-binding = "cheshiyi"                  # JS 代码中用 env.jingxi 访问
-database_name = "cheshiyi" # 你在 CF Console 中创建的 D1 名称
-database_id = "f594d41e-e782-4006-897c-7ddad8762ba1" # 对应 D1 实际的数据库 ID，可在 Dashboard 查到
-
-# 可选：设置默认环境
-[env.production]
-bindings = []                        # 如有其他变量，可在此配置（例如 OWNER_CHAT_ID 等）
-
-# 可选：使用 secrets 储存敏感信息，如 TELEGRAM_BOT_TOKEN
-# 设置方式：
-# npx wrangler secret put TELEGRAM_BOT_TOKEN
-# npx wrangler secret put OWNER_CHAT_ID
+binding = "jingxi"
+database_name = "cheshiyi"
+database_id = "f594d41e-e782-4006-897c-7ddad8762ba1"
