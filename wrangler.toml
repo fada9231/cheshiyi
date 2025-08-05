@@ -5,8 +5,9 @@ compatibility_date = "2024-05-01"
 [[d1_databases]]
 binding = "cheshiyi"
 database_name = "cheshiyi"
-database_id = "140c135d-445d-46bd-b8ad-08131e8eb0e6"
+database_id = "6e7591d7-ebc2-4984-ad8a-e55ebb48e69f"
 
 [vars]
 WEBHOOK_PATH = "/telegram-webhook"
+
 
