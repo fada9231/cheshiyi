@@ -9,4 +9,3 @@ database_id = "6e7591d7-ebc2-4984-ad8a-e55ebb48e69f"
 
 [vars]
 WEBHOOK_PATH = "/telegram-webhook"
-
